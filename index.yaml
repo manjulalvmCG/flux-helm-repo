@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  flux-helm-demo-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-15T11:24:22.071256817Z"
+    description: A Helm chart for Kubernetes
+    digest: 6143ce8106b90c901e14d8437984cb61125d6d4274eba40e4ef1b957922edf8e
+    name: flux-helm-demo-chart
+    type: application
+    urls:
+    - flux-helm-demo-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-06-15T11:24:22.070765084Z"
