@@ -3,22 +3,22 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: nginx-helm-demo
-  name: nginx-helm-demo
+    app: {{ .Values.labels.app }}
+  name: {{ .Values.name }}
 spec:
-  replicas: 1
+  replicas: {{ .Values.spec.replicas }}
   selector:
     matchLabels:
-      app: nginx-helm-demo
+      app: {{ .Values.spec.selector.matchLabels.app }}
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: nginx-helm-demo
+        app: {{ .Values.spec.template.metadata.labels.app }}
     spec:
       containers:
-      - image: nginx
-        name: nginx
+      - image: {{ .Values.spec.template.spec.containers.image }}
+        name: {{ .Values.spec.template.spec.containers.name }}
         resources: {}
 status: {}
