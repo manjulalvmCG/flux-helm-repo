@@ -10,5 +10,5 @@ entries:
     type: application
     urls:
     - flux-helm-demo-chart-0.2.0.tgz
-    version: 0.1.0
+    version: 0.2.0
 generated: "2023-06-16T07:12:17.705396641Z"
