@@ -3,9 +3,9 @@
 # Declare variables to be passed into your templates.
 labels:
   app: nginx-helm-demo
-name: nginx-helm-demo
+name: nginx-helm-demo-2
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: nginx-helm-demo
