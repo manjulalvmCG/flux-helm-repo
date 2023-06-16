@@ -9,6 +9,12 @@ entries:
     name: flux-helm-demo-chart
     type: application
     urls:
+<<<<<<< HEAD
     - flux-helm-demo-chart-0.1.0.tgz
     version: 0.1.0
 generated: "2023-06-16T07:41:01.128210601Z"
+=======
+    - flux-helm-demo-chart-0.2.0.tgz
+    version: 0.2.0
+generated: "2023-06-16T07:12:17.705396641Z"
+>>>>>>> 4d0a23149ecad6f68be8815e48237e067036d186
